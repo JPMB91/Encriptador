@@ -1,0 +1,96 @@
+*{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.logo_alura{
+    margin: 1em 0 1em 1.5em;
+}
+
+main{
+    display: flex;
+    margin-left: 2em;
+    margin-bottom: 2em;
+} 
+
+body{
+    background-color: #E5E5E5;
+}
+
+.input_texto{
+    border-radius: 12px;
+}
+
+.informacion{
+    display:flex;
+    
+}
+
+.logo-advertencia{
+    position:relative;
+    margin-right: 0.2em;
+
+}
+
+.informacion h6{
+  font-size: 12px;
+  flex:none;
+  order: 1;
+  line-height: 150%;
+   
+}
+
+.input_texto{
+    margin-bottom: 2em;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+.encriptacion{
+    background-color: #0A3871;
+    color: white;
+    border-radius: 18px;
+
+}
+
+.desencriptacion{
+    color: black;
+    margin-left: 1em;
+    border-radius: 18px;
+}
+
+.mensaje{
+    border-radius: 12px;
+    position: relative;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 12px 98px;
+    margin: 0 auto;
+}
+
+.mensaje::placeholder{
+    text-align:center;
+
+}
+.area_mensaje{
+    margin-left: 2.5em;
+    margin-top: 0.1em;
+}
+
+
+.copiar{
+    position: relative;
+    color: black;
+    margin-top: 1.4em;
+    vertical-align: left;
+    border-radius: 15px;
+}
