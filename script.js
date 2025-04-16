@@ -1,7 +1,7 @@
 const inputTexto = document.querySelector(".input_texto"); //creamos una variable para recibir la clase que recibe el texto ingresado
 const mensaje = document.querySelector(".mensaje");  //vincula al campo textarea .mensaje
 const boton_copiar = document.querySelector(".copiar");
-const areaTexto = document.getElementById("areaTexto"); //AAAAAH no se como hacerlo
+const areaTexto = document.getElementById("areaTexto"); 
 
 
 //botón encriptar
